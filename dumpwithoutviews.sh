@@ -3,6 +3,14 @@
  
 # Copyright (C) 2015 Thamm IT GmbH <shops@thamm-it.de>
 
+# Inspired by the blog post 
+# http://www.marmalade.de/magazin/2014/11/oxid-datenbankdump-ohne-views/
+# I wrote this script to simplify the process of dumping a mysql database
+# without the views. 
+
+# Depending on the directory you put this scipt in and the directory oxid
+# resides in you need to adjust the location of the oxid configuration file.
+
 # Permission is hereby granted, free of charge, to any person obtaining
 # a copy of this software and associated documentation files (the
 # "Software"), to deal in the Software without restriction, including
