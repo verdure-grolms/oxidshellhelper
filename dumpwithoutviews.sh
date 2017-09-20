@@ -59,4 +59,4 @@ do
 done
 
 #dump the database while ignoring the views to a file named with current date and time
-mysqldump -u $dbUser -h $dbHost -p$dbPwd $ignorepart $dbName > dump`date +%Y%m%d-%H%M`.sql
+mysqldump -u $dbUser -h $dbHost -p$dbPwd $ignorepart $dbName | gzip -9 > dump`date +%Y%m%d-%H%M`.sql.gz
